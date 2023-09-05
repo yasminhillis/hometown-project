@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    text-align: center;
+    /* width: 100%; */
+}
+
+#hero {
+    /* width: 1082px; */
+    height: 343px;
+    background-image: url("images/torshov-image.png");
+    margin: 0 auto;
+    padding: 122px 259px 187px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hero-main {
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Arial;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0;
+    background: #1D3557;
+    padding: 5px 12px;
+    margin-bottom: 0;
+    border-radius: 7px;
+    margin: 119px 247px 0px;
+    
+}
+
+#hero-sub {
+    padding: 8px 28px 0px;
+    background: #457B9D;
+    color: #FFF;
+    text-align: center;
+    font-family: Arial;
+    font-size: 18.72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 12px;
+    width: 412px;
+    height: 52px;
+    border-radius: 7px;
+    
+}
+
+#activities-list {
+    display: flex;
+    flex-direction:row;
+    /* justify-content: space-around; */
+    justify-content: center;
+}
+
+.activities-img {
+    border-radius: 50%;
+}
+
+.activities-text {
+    font-size: 16px;
+    width: 198px;
+} 
+
+#activities {
+    /* width: 720px */
+    background-color: #F1FAEE;
+    /* width: 720px; */
+    height: 378px;
+}
+
+
+.activity {
+    margin: 0 88px;
+}
+
+
+#activities-text {
+    margin: 39px 140px 55px;
+    color: #1D3557;
+    text-align: center; 
+    font-family: Arial;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0px;
+    padding: 39px 0px 0;
+}
+
+.activity-explanation {
+    color: #1D3557;
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#guide {
+    display: flex;
+    width: 400px; 
+    height: 294px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background: #A8DADC;
+    box-shadow: 0px 6px 0px 0px #1D3557;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+
+#guide-text {
+    margin-top: 49px;
+    width: 207px;
+    height: 32px;
+    flex-shrink: 0;
+    color: #1D3557;
+    text-align: center;
+    font-family: Arial;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#guide-paragraph{
+    color: #1D3557;
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    width: 189px;
+    height: 71px;
+    flex-shrink: 0;
+    margin-top: 14px;
+}
+
+#guide-signature{
+    color: #1D3557;
+    text-align: center; 
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 26px 13px 84px 5px;
+}
+
+#guide-img {
+    margin: 23px 7px 23px 13px;
+}
